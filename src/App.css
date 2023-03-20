@@ -1,0 +1,54 @@
+/* App container styles */
+.app-container {
+  background-color: #46cf15; /* PeachPuff */
+}
+
+/* Main container styles */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 700px;
+  padding: 30px;
+  background-color: #743ca9; /* Moccasin */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+/* Title styles */
+.title {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 50px;
+  color: #101d66; /* LightSalmon */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Subtitle styles */
+.subtitle {
+  font-family: 'Comic Sans MS';
+  font-size: 40px;
+  color: #000; /* Black */
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* View Button styles */
+.view-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #5227a1;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.view-btn:hover {
+  background-color: #e11616;
+  color: #ce1919;
+}
